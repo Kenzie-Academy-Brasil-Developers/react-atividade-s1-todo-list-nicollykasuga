@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.input{
+    border: 2px solid aliceblue;
+    background:none;
+    color: white;
+    border-radius: 3px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px;
+    outline: none;
+    
+}
+
+.input:hover{
+    border-color: rgb(50, 91, 105);
+}
+
+.input:focus{
+ border-color: #078bff;
+}
+
+.botao{
+    width: 90px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #6c9d8d;
+    font-family:'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    outline: 2px solid #7fbdaf;
+    outline-offset: 2px;
+}
